@@ -47,7 +47,7 @@
           img(src='@/assets/curso/temas/t2/fig3.svg', alt='Proceso básico de la virtualización en el que se tiene una infraetsructura y un hipervisor (  del sistema operativo o de software) que administra y hace que funcionen las maquinas virtuales.')
 
     Separador 
-    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="zoom-in-left")
+    #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade")
       h2 2.1 Generalidades de la virtualización     
 
     .row.fondo2-t2.align-items-center
@@ -395,8 +395,11 @@
                         span Ver video              
           .col-lg-5.my-3  
             img.img-t.img-a(src="@/assets/curso/temas/t2/img8.png")                                                                   
+    
+    
     Separador 
-    #t_2_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+    
+    #t_2_2.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade")
       h2 2.2 Máquinas virtuales 
 
     .row.fondo6-t2.align-items-center.pt-4
@@ -410,9 +413,12 @@
               p.mb-0 #[b Figura 4.] Funcionamiento de una Máquina virtual
             img.img-t.img-a(src="@/assets/curso/temas/t2/fig4.svg", alt="Esquema que presenta los elementos de una máquina virtual, en la cual un sistema operativo (hipervisor) funciona en un sistema operativo anfitrión.")
 
+
     Separador 
-    #t_2_3.titulo-segundo.color-acento-contenido.mb-4(data-aos="zoom-in-left")
+
+    #t_2_3.titulo-segundo.color-acento-contenido.mb-4(data-aos="fade")
       h2 2.3 Características de la virtualización
+
     p.mb-5 Existen ventajas que son características del proceso de virtualización, permitiendo de esta forma obtener mejores y mayores recursos, sistemas de soporte, la migración de datos e información, así como una alta disponibilidad de los recursos. A continuación, se encuentra una breve descripción de estas: 
     TabsB.color-acento-botones.mb-4(data-aos="fade-down")
       .py-4.py-md-5.bg-5(titulo="Almacenamiento" :icono="require('@/assets/curso/temas/t2/tab-ico1.svg')")
@@ -480,6 +486,9 @@
           .col-10
             .cajon.color-acento-contenido.p-4
               p.mb-0 Las plantas de mayor tamaño también han comenzado a cambiar a servidores virtuales, gracias a los grandes centros de datos. Sea cual sea el tamaño de su planta, la planta conectada es el futuro de la fabricación y la virtualización desempeñará un papel cada vez más importante en el espacio de la OT. La tendencia de migración a servidores permite ahora trasladar servidores virtuales de una máquina física a otra, y se encuentra aún en sus primeras fases
+
+
+
 </template>
 
 <script>
