@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://ecored-sena.github.io/228132_CF03_GESTION_SERVICIOS_NUBE/](https://ecored-sena.github.io/228132_CF03_GESTION_SERVICIOS_NUBE/)
 
 #
 

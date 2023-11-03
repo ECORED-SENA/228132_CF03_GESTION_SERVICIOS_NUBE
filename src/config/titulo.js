@@ -1,1 +1,2 @@
-module.exports = 'NOMBRE DEL COMPONENTE FORMATIVO'
+module.exports =
+  'Especificaciones técnicas para la arquitectura tecnológica en la nube'
