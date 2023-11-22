@@ -14,9 +14,9 @@
           .col-lg-7(data-aos="fade-right")
             p Una vez revisados los conceptos y características del servicio de directorio y la virtualización, es tiempo de profundizar en los modelos de virtualización a nivel de sistema operativo en el que se desarrollarán varios ejercicios como introducción a la plataforma Docker, la cual es ampliamente utilizada porla industria de desarrollo de #[em software].
             .row.align-items-center.mb-4.ps-md-3.ps-lg-4
-              .col-1
+              .col-lg-1.d-none.d-lg-flex
                 img(src="@/assets/curso/temas/t3/puntos.svg")
-              .col-11
+              .col-lg-11
                 p.mb-0.t-dblue Al finalizar este componente formativo el aprendiz estará en la capacidad de crear imágenes de #[em docker], construir y ejecutar contenedores #[em Docker] a partir de imágenes locales, modificar contenedores locales, transformar un contenedor editada a una imagen y compartir una imagen local en el repositorio en la nube #[em Docker Hub].
           .col-lg-5.col-md-8(data-aos="fade-left")
             img(src="@/assets/curso/temas/t3/img.png")
@@ -40,17 +40,17 @@
               .bloque-texto-e.bg-gradient3.br-10.p-4.mb-4
                 .bloque-texto-e__texto.ptop.p-relative
                   img.adorn(src='@/assets/curso/temas/t1/vineta.svg', alt='')
-                  p.text-white.pt-5 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un software específico que no tiene un sistema operativo propio, sino que comparte los recursos y el kernel del sistema operativo de la máquina anfitriona o host, logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o host.
+                  p.text-white.pt-5 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o #[em host], logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host].
                   div.pt-5.j-end
                     p.text-white.fw-bold López (2018)
                     i.fas.fa-square-full
 
           .col-12
             .cajon.color-acento-contenido.p-4
-              p.mb-0 Los contenedores encapsulan únicamente el software específico de la aplicación que se ejecuta dentro de él, junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar; logrando, entonces, una portabilidad real, ya que es posible predecir el comportamiento de un #[em software] cuando este se mueve desde un servidor a otro.
+              p.mb-0 Los contenedores encapsulan únicamente el #[em software] específico de la aplicación que se ejecuta dentro de él, junto con las librerías de las cuales depende para su ejecución, abstrayendo el servidor en el que se va a ejecutar; logrando, entonces, una portabilidad real, ya que es posible predecir el comportamiento de un #[em software] cuando este se mueve desde un servidor a otro.
 
     .bg-4.w-fit.py-2.px-4.mb-3(data-aos="fade")
-      h4.text-white.mb-0 Ventajas
+      h4.mb-0 Ventajas
 
     .row.align-items-center.mb-4
       .col-lg-7.mb-3.mb-lg-0(data-aos="fade-right")
@@ -79,7 +79,7 @@
 
           .col-12
             .bg-4.w-fit.py-2.px-4.mb-4(data-aos="fade")
-              h4.text-white.mb-0 Mayor uso
+              h4.mb-0 Mayor uso
           
           .row.justify-content-center
             .col-lg-4.col-md-6.mb-3.mb-lg-0
@@ -112,19 +112,19 @@
               .bg-white.mnl-22.p-4.mb-4
                 p.mb-0 Hay similitudes y diferencias entre la forma en cómo estas dos tecnologías facilitan el proceso de virtualización de aplicaciones, razón por la cual es más conveniente una u otra dependiendo del contexto particular y las necesidades establecidas por la organización. 
               .row.align-items-center.mb-4
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t3/ptos.svg")
-                .col-11
-                  p.mb-0.t-blue.fw-bold En ambos casos se requiere de una máquina host que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo. Luego, sobre este sistema operativo se monta un #[em software], que en el caso esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
+                .col-lg-11
+                  p.mb-0.t-blue.fw-bold En ambos casos se requiere de una máquina #[em host] que contendrá la infraestructura física con todos los dispositivos y recursos necesarios, sobre los cuales se monta un sistema operativo que puede ser de cualquier tipo. Luego, sobre este sistema operativo se monta un #[em software], que en el caso esquema de máquinas virtuales tradicionales será un hipervisor y en el esquema de contenedores será un gestor de contenedores.
           
           .col-12(data-aos="fade-down")
             .cajon.color-acento-botones.p-4
-              p.mb-0 En las máquinas virtuales, para poder ejecutar una aplicación específica, se requiere de librerías, códigos binarios y del montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con Visual Studio Net, es necesario también montar en la máquina virtual el sistema operativo Windows; ahora bien, si la aplicación a ejecutar en la máquina virtual fue construida en Swift, requiere entonces la instalación del sistema operativo MacOS, y así sucesivamente. En todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las App a utilizar.
+              p.mb-0 En las máquinas virtuales, para poder ejecutar una aplicación específica, se requiere de librerías, códigos binarios y del montaje de un sistema operativo invitado. Así, por ejemplo, si la aplicación a ejecutar en la máquina virtual fue construida con Visual Studio Net, es necesario también montar en la máquina virtual el sistema operativo Windows; ahora bien, si la aplicación a ejecutar en la máquina virtual fue construida en Swift, requiere entonces la instalación del sistema operativo MacOS, y así sucesivamente. En todas las máquinas virtuales se debe correr el sistema operativo completo de acuerdo con las #[em App] a utilizar.
 
     .fondo6-t3.p-4.p-lg-5
       .row.m-0.align-items-center.justify-content-between 
         .col-12.bg-white.p-4
-          p.mb-0.fw-bold En el caso de las tecnologías de contenedores, estos se construyen exclusivamente con las aplicaciones, librerías y archivos binarios a ser utilizados, y compartirán recursos con el sistema operativo anfitrión o máquina host.
+          p.mb-0.fw-bold En el caso de las tecnologías de contenedores, estos se construyen exclusivamente con las aplicaciones, librerías y archivos binarios a ser utilizados, y compartirán recursos con el sistema operativo anfitrión o máquina #[em host].
 
 
     Separador
@@ -152,7 +152,7 @@
                         i.fas.fa-link
             .cajon.color-primario.p-4
               p.mb-0 En el enlace anterior se encuentra el acceso directo al proceso de descarga y también una descripción de los requerimientos específicos respecto a versiones del sistema operativo, memoria RAM mínima, procesadores compatibles, entre otros.           
-          .col-lg-4(data-aos="fade-left")
+          .col-lg-4.col-8(data-aos="fade-left")
             img(src="@/assets/curso/temas/t3/img5.png", alt="")
 
     p.mb-4(data-aos="fade") En el siguiente recurso, se presentan las caraterísticas de Docker.

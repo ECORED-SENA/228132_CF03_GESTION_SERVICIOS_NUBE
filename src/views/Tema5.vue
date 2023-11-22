@@ -28,17 +28,17 @@
                           span Abrir enlace
                           i.fas.fa-link
               .bg-2.mb-4.p-3.mnl-22
-                p.mb-0 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en Cloud, migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
+                p.mb-0 De igual manera nos refiere a que un problema frecuente es la gestión de los datos en #[em Cloud], migraciones de datos sensibles sin aprobación o informado a las áreas necesarias para ello.
               .row.align-items-center.mb-4
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t5/puntos.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 Además de los controles tradicionales de seguridad de los datos (como controles de acceso o cifrado), hay otros dos pasos que ayudan a gestionar la migración no autorizada de datos a servicios #[em Cloud], los cuales son:
 
           .row.justify-content-center(data-aos="fade-down")
             .col-lg-10.bg-3.br-10.p-4
               .row.align-items-center
-                .col-lg-5
+                .col-lg-5.mb-4.mb-lg-0
                   p.mb-0 Monitorizar la existencia de grandes movimientos internos de datos con herramientas de monitorización de actividad de bases de datos (DAM - #[em Database Activity Monitoring]) y de monitorización de actividad en archivos (FAM - #[em File Activity Monitoring]).
                 .col-lg-7
                   img(src="@/assets/curso/temas/t5/fig.svg", alt="Esquema visual de un monitoreo de movimientos con herramientas DAM y a su vez un monitoreo de actividad de archivos.")

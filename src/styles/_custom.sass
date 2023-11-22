@@ -394,10 +394,15 @@
   font-size: 20px
 .bloque-texto-g--inverso .bloque-texto-g__img
   background-position: right
+  @media (max-width: 992px)
+    background-position: 225%
 .tabs-c__header
   margin-bottom: 0px 
 .tabs-c__tab--active span
   font-weight: bold
+.slyder-a__bullets__item
+  background-color: #5b9e93
+  border-color: #5b9e93
 .slyder-a__bullets__item--active 
   background-color: #F59D36
   border-color: #F59D36
@@ -409,6 +414,15 @@
   background-color: #F59D36
 .tabs-b__tab--active 
   background-color: #E6EFF8
+.tarjeta-avatar-b.tema1-3 .tarjeta-avatar-b__img 
+  min-width: 18%
+  max-width: 18%
+.tarjeta-avatar-b.tema2-3 .tarjeta-avatar-b__img, .tarjeta-avatar-b.tema4-3 .tarjeta-avatar-b__img
+  @media (max-width: 992px)
+    min-width: 15%
+    max-width: 15%  
+ul.lista-ul--color.color-acento-botones i
+  color: $color-acento-botones
 
 
 .tarj-t1
@@ -491,7 +505,7 @@
       margin-bottom: 2rem !important  
 
 .bgplay
-  background: rgb(46,196,159);
+  background: rgb(46,196,159)
   background: linear-gradient(90deg, rgba(46,196,159,1) 0%, rgba(43,57,144,1) 100%)      
 
 .bggray

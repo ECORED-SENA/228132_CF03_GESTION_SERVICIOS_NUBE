@@ -12,7 +12,7 @@
         .row.align-items-center.justify-content-center
 
           .row.align-items-center.mb-4
-            .col-lg-4.col-md-8.mb-3.mb-lg-0(data-aos="fade-right")
+            .col-lg-4.col-md-8.mb-3.mb-lg-0.d-none.d-lg-flex(data-aos="fade-right")
               img(src="@/assets/curso/temas/t1/img.png")
             .col-lg-8(data-aos="fade-left")
               img.mx-auto.pb-4(src="@/assets/curso/temas/t1/microsoft.png", style="max-width: 500px;")
@@ -25,7 +25,7 @@
             .col-lg-4.col-md-6.mb-3
               .tarj-t1.t1-hover.p-4.h-100
                 img.mx-auto.mb-4(src="@/assets/curso/temas/t1/tarj-ico1.svg", style="max-width: 110px;")
-                p.text-center El directorio activo tiene la capacidad de proporcionar un servicio ubicado en uno o varios servidores con capacidad de crear y orquestar objetos como usuarios, equipos o grupos, de tal manera que se pueda gestionar credenciales de inicio de sesión de los equipos conectados en una red
+                p.text-center El directorio activo tiene la capacidad de proporcionar un servicio ubicado en uno o varios servidores con capacidad de crear y orquestar objetos como usuarios, equipos o grupos, de tal manera que se pueda gestionar credenciales de inicio de sesión de los equipos conectados en una red.
             .col-lg-4.col-md-6.mb-3
               .tarj-t1.t1-hover.p-4.h-100
                 img.mx-auto.mb-4(src="@/assets/curso/temas/t1/tarj-ico2.svg", style="max-width: 110px;")
@@ -53,9 +53,9 @@
               .bg-3.mb-4.p-3.mnl-22
                 p.mb-0 Un controlador de dominio, también conocido como directorio activo (#[em Active Directory] por sus siglas en inglés), cumple la función principal de agrupar varios ordenadores en una misma red, a lo que se conoce como dominio; el controlador de dominio es capaz de orquestar reglas o políticas para cada dominio que se tenga.
               .row.align-items-center
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t1/puntos.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 El dominio dentro de #[em Active Directory] consiste en varios ordenadores conectados a una red, los cuales cuentan con un equipo servidor para administrar las cuentas de usuario y credenciales de la red. Los dominios no necesariamente tienen que estar en contacto unos con otros; por ejemplo, un dominio (A) tiene acceso a otros dos dominios (B y C), esto no implica que C tenga acceso a B.
             .col-12
               .cajon.color-acento-contenido.p-4
@@ -85,7 +85,7 @@
               img(src='@/assets/curso/temas/t1/fig1.svg', alt='En Active Directory, el bosque es una colección de uno o más dominios que comparten una misma estructura lógica, catálogo global y configuración.')
           
           .row.align-items-center
-            .col-lg-5.col-md-8.mb-3.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.col-md-8.mb-3.mb-lg-0.d-none.d-lg-flex(data-aos="fade-right")
               img(src="@/assets/curso/temas/t1/img4.png")
             .col-lg-7(data-aos="fade-left")
               LineaTiempoD.color-acento-botones.mb-4
@@ -93,9 +93,9 @@
                 p.mb-0(numero="2" titulo="Árbol") Consiste en uno o varios dominios, organizados jerárquicamente y que dependen de una raíz común, a esto se le conoce como DNS común. De esta manera se pueden diferenciar o identificar un dominio de otro. Por ejemplo, un dominio midominio.local puede tener un subdominio que compone dicho árbol, entonces podría tener otro subdominio así works.midominio.local, y si se tiene otro dominio de nombre otro otrodominio.local, es fácil identificar que son árboles diferentes con respecto al anterior.
                 p.mb-0(numero="3" titulo="Bosque") Un bosque se compone de todos los dominios existentes, dentro del servidor de dominio. Se crean relaciones de confianza transitivas o intransitivas que están construidas automáticamente por el directorio activo para cada dominio, las cuales pueden ser modificadas posteriormente.
               .row.align-items-center
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t1/puntos2.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 En cuanto al árbol, es necesario tener en cuenta que, a través de éste, el directorio activo puede ser dividido o segmentado en partes para optimizar la gestión de recursos, así entonces, un usuario perteneciente a un dominio también puede ser reconocido por los subdominios que pertenezcan al dominio principal.
 
     .tarjeta-avatar-b(data-aos="fade-down")
@@ -120,11 +120,11 @@
             .col-lg-7(data-aos="fade-right")
               p Dentro de los servicios de directorio, las cuentas hacen referencia a los usuarios digitales a los cuales se les brindará o no el acceso a servicios, sistemas, aplicaciones y funcionalidades dentro de un dominio, y son almacenadas localmente en el servidor de dominio. A las cuentas se les pueden asignar derechos y permisos en un servidor determinado, pero solo en ese servidor.
               .row.align-items-center
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t1/puntos2.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 Las cuentas de usuario también sirven para tener mayor control en los servicios y aplicaciones, pues se pueden considerar como entidades de seguridad que se utilizan para proteger y administrar el acceso a los recursos en un servidor independiente o miembro para servicios o usuarios.
-            .col-lg-5.col-md-8(data-aos="fade-left")
+            .col-lg-5.col-md-8.d-none.d-lg-flex(data-aos="fade-left")
               img(src="@/assets/curso/temas/t1/img5.png")
 
     p.mb-4(data-aos="fade") Las cuentas de usuario se pueden agrupar de la siguiente manera.
@@ -137,18 +137,18 @@
           img(src='@/assets/curso/temas/t1/fig2.svg', alt='Tipos de cuentas de usuario. Estas son: administrador, usuarios locales, invitado, de asistencia, seguridad y por defecto.')
           
     .bg-4.w-fit.py-2.px-4.mb-4(data-aos="fade")
-      h4.text-white.mb-0 Administración de cuentas
+      h4.mb-0 Administración de cuentas
 
     .row.align-items-center.mb-4
       .col-lg-9(data-aos="fade-right")
         .row.align-items-center.mb-4
-          .col-1
+          .col-lg-1.d-none.d-lg-flex
             img.mx-auto(src="@/assets/curso/temas/t1/puntos3.svg", style="max-width: 35px;")
-          .col-11
+          .col-lg-11
             p.mb-0 Cuando se instala el servidor de dominio y se configura el dominio, se instalan las cuentas locales predeterminadas, estas cuentas se guardan en el contenedor Usuarios en Usuarios y Equipos de Active Directory. Las cuentas locales predeterminadas se pueden crear, deshabilitar, restablecer y eliminar con la Consola de administración de Microsoft (MMC) de Usuarios y equipos de Active Directory y con herramientas de línea de comandos.
         .bg-5.p-4
           p.mb-0 El siguiente recurso amplía la información sobre la administración de cuentas.
-      .col-lg-3.col-md-7(data-aos="fade-left")
+      .col-lg-3.col-md-7.d-none.d-lg-flex(data-aos="fade-left")
         img(src="@/assets/curso/temas/t1/img6.png")
 
     TabsC.color-acento-botones.mb-5(data-aos="fade-down")
@@ -194,39 +194,48 @@
           .row.align-items-center
             .col-lg-7(data-aos="fade-right")
               .bg-4.w-fit.py-2.px-4.mb-4(data-aos="fade")
-                h4.text-white.mb-0 Seguridad en las cuentas y los accesos
+                h4.mb-0 Seguridad en las cuentas y los accesos
               p Es importante que se protejan las cuentas de dominio, para lo cual se debe restringir y limitar estrictamente la pertenencia a los grupos administradores, administradores de dominio y Enterprise Admins, así como controlar de manera rigurosa dónde y cómo se usan las cuentas de dominio.
               .row.align-items-center.mb-4
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t1/puntos4.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 En el siguiente recurso didáctico, se encuentran algunas de las medidas de seguridad para las cuentas y accesos.
-            .col-lg-5.col-md-7(data-aos="fade-left")
+            .col-lg-5.col-md-7.d-none.d-lg-flex(data-aos="fade-left")
               img(src="@/assets/curso/temas/t1/img7.png")
     
     .row.fondo6-t1.align-items-center.py-5
       .col-lg-12.col-12.px-lg-5.px-4
-        .row.align-items-center.justify-content-center
+        .row.align-items-center.justify-content-around
           
-          h4.text-center.mb-4 Seguridad en las cuentas y los accesos
-          .col-lg-9
-            ImagenInfografica.color-acento-botones
-              template(v-slot:imagen)
-                figure
-                  img(src='@/assets/curso/temas/t1/img-infog.svg', alt='')
-
-              .tarjeta.bg-gradient2.p-3(x="7.5%" y="54%" numero="01")
-                h4.num-tarj.mb-0 01
-                p.text-white.px-2 Separar las cuentas de administrador de las de usuarios.
-              .tarjeta.bg-gradient2.p-3(x="24.2%" y="11%" numero="02")
-                h4.num-tarj.mb-0 02
-                p.text-white.px-2 Para los administradores crear <em>hosts</em> de estación de trabajo dedicados.
-              .tarjeta.bg-gradient2.p-3(x="66.8%" y="12%" numero="03")
-                h4.num-tarj.mb-0 03
-                p.text-white.px-2 Restringir el inicio de sesión de administrador a servidores y estaciones de trabajo bajo control para quienes tienen derecho de uso, por medio de contraseñas seguras y cuando sea aplicable con doble factor de autenticación.
-              .tarjeta.bg-gradient2.p-3(x="86.5%" y="46%" numero="04")
-                h4.num-tarj.mb-0 04
-                p.text-white.px-2 Para cuentas de administrador deshabilitar el derecho de delegación de cuenta.
+          p.text-center.mb-4 Seguridad en las cuentas y los accesos
+          .col-lg-5.col-md-8.mb-4
+            img(src="@/assets/curso/temas/t1/img-1-3.svg", alt="")
+          .col-lg-6.mb-4
+            .tarjeta-avatar-b.tema1-3.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/t1/new-ico1.svg' alt='')
+              .tarjeta.bg-3
+                .p-4
+                  p.mb-0 Separar las cuentas de administrador de las de usuarios.
+            .tarjeta-avatar-b.tema1-3.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/t1/new-ico2.svg' alt='')
+              .tarjeta.bg-3
+                .p-4
+                  p.mb-0 Para los administradores crear hosts de estación de trabajo dedicados.
+            .tarjeta-avatar-b.tema1-3.mb-3
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/t1/new-ico3.svg' alt='')
+              .tarjeta.bg-3
+                .p-4
+                  p.mb-0 Restringir el inicio de sesión de administrador a servidores y estaciones de trabajo bajo control para quienes tienen derecho de uso, por medio de contraseñas seguras y cuando sea aplicable con doble factor de autenticación.
+            .tarjeta-avatar-b.tema1-3.mb-4
+              .tarjeta-avatar-b__img
+                img(src='@/assets/curso/temas/t1/new-ico4.svg' alt='')
+              .tarjeta.bg-3
+                .p-4
+                  p.mb-0 Para cuentas de administrador deshabilitar el derecho de delegación de cuenta.
 
 
     Separador
@@ -248,7 +257,7 @@
         .tarj-t1.p-4.h-100
           img.mx-auto.mb-4(src="@/assets/curso/temas/t1/tarj2-ico1.svg", style="max-width: 110px;")
           h4.text-center Usuario
-          p Consiste en las credenciales de acceso a estaciones de trabajo, aplicaciones o servicios.
+          p.text-center Consiste en las credenciales de acceso a estaciones de trabajo, aplicaciones o servicios.
       .col-lg-4.col-md-6.mb-3
         .tarj-t1.p-4.h-100
           img.mx-auto.mb-4(src="@/assets/curso/temas/t1/tarj2-ico2.svg", style="max-width: 110px;")
@@ -270,12 +279,12 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center.justify-content-center
 
-          .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+          .col-lg-4.col-md-6.col-8.mb-4.mb-lg-0(data-aos="fade-right")
             img.pe-lg-3(src="@/assets/curso/temas/t1/img9.png", alt="")
           .col-lg-8(data-aos="fade-left")
             p 
               span.t-blue #[b Las políticas de dominio]
-              |, también llamadas de políticas de grupo o reglas del active directory, consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo, existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio, ya sea local o en la nube, a continuación, se describen algunas de estas.
+              |, también llamadas de políticas de grupo o reglas del #[em active directory], consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo, existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio, ya sea local o en la nube, a continuación, se describen algunas de estas.
 
     .fondo-slider.p-4.mb-4(data-aos="fade-down")
       SlyderA(tipo="b")
@@ -326,21 +335,30 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0
                   h4.text-white Introducción a AD DS
-                  p.text-white.text-small.mb-0 Se recomienda seguir la guía rápida de Microsoft que se encuentra en el material complementario y que también puede ser consultada a través de este enlace. Allí se puede profundizar más sobre el directorio activo, los servicios de dominio y sus políticas.
+                  p.text-white.mb-0 Se recomienda seguir la guía rápida de Microsoft que se encuentra en el material complementario y que también puede ser consultada a través de este enlace. Allí se puede profundizar más sobre el directorio activo, los servicios de dominio y sus políticas.
                 .col-sm-auto
                   a.boton.color-acento-botones(:href="('https://learn.microsoft.com/en-us/training/modules/introduction-to-ad-ds/')" target="_blank")
                     span Abrir enlace
                     i.fas.fa-link
 
     .row.align-items-center.justify-content-center
-      .col-lg-4.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-4.mb-4.mb-lg-0.d-none.d-lg-flex(data-aos="fade-right")
         img.pe-lg-3(src="@/assets/curso/temas/t1/img10.png", alt="")
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Relaciones de confianza")
             p Existen entre dos dominios / bosques de #[em Active Directory] la relación de confianza, que consiste en un vínculo de confianza el cual permite a los usuarios autenticados acceder a los recursos de otro dominio.
             p Las relaciones de confianza pueden ser:
-            img.mx-auto(src="@/assets/curso/temas/t1/fig.svg", alt="", style="max-width:450px;")
+            ul.lista-ul--color.color-acento-botones.fa-ul.ps-4.mb-0
+              li.mb-1
+                i.fas.fa-play
+                | Transitivo.
+              li.mb-1
+                i.fas.fa-play
+                | Bidireccional.
+              li.mb-1
+                i.fas.fa-play
+                | Unidireccional.
           .row(numero="2" titulo="Replicación de objetos")
             p
               span.t-blue #[em #[b Active Directory ]] 
@@ -356,12 +374,12 @@
             p.mb-5 La redundancia en servicios de directorio o en 
               span.t-blue #[b #[em Active Directory ]]
               |, consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. 
-              span.t-blue #[b También ayuda a que los servicios de dominio de #[em Active Directory] resuelvan problemas o errores de hardware, software o del administrador (SysAdmin).]
+              span.t-blue #[b También ayuda a que los servicios de dominio de #[em Active Directory] resuelvan problemas o errores de #[em hardware], #[em software] o del administrador (#[em SysAdmin]).]
             .col-12
               .bloque-texto-e.bg-gradient3.br-10.p-4.mb-4
                 .bloque-texto-e__texto.ptop.p-relative
                   img.adorn(src='@/assets/curso/temas/t1/vineta.svg', alt='')
-                  p.text-white.pt-5 Una de las opciones para la redundancia es realizar “Configuración de redundancia geográfica con Replicación de SQL Server” como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, “Si usa SQL Server como base de datos de configuración de AD FS (#[em Active Directory Federation Services]), puede configurar la redundancia geográfica para la granja de servidores AD FS mediante SQL Server replicación. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”
+                  p.text-white.pt-5 Una de las opciones para la redundancia es realizar “Configuración de redundancia geográfica con Replicación de #[em SQL Server]” como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, “Si usa #[em SQL Server] como base de datos de configuración de AD FS (#[em Active Directory Federation Services]), puede configurar la redundancia geográfica para la granja de servidores AD FS mediante #[em SQL Server replicación]. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”
                   div.pt-5.j-end
                     p.text-white.fw-bold Microsoft (2021)
                     i.fas.fa-square-full

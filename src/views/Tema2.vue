@@ -11,15 +11,15 @@
       .col-lg-12.col-12.px-lg-5.px-4
         .row.align-items-center.justify-content-center
           .row.align-items-center.justify-content-center.mb-3
-            .col-lg-5.col-md-8.mb-4.mb-lg-0(data-aos="fade-right")
+            .col-lg-5.col-md-8.mb-4.mb-lg-0.d-none.d-lg-flex(data-aos="fade-right")
               img(src="@/assets/curso/temas/t2/img.png")
             .col-lg-7(data-aos="fade-left")
               .bg-2.mb-4.p-3.mnl-22
                 p.mb-0 La virtualización es un tema base, sobre el que se fundamenta la computación en la nube y los sistemas actuales de despliegue de aplicaciones y servicios en la nube.
               .row.align-items-center.mb-4
-                .col-1
+                .col-lg-1.d-none.d-lg-flex
                   img.img-t(src="@/assets/curso/temas/t2/1.svg")
-                .col-11
+                .col-lg-11
                   p.mb-0 Es necesario conocer sobre las generalidades de la virtualización, los diferentes tipos que hay y que son más comunes en el uso de acuerdo con sus características, un listado de algunas herramientas para realizar un proceso de virtualización de servidores y un ejemplo detallado para la realización de una virtualización de un sistema operativo Linux corriendo en una máquina Windows.
 
               .row.justify-content-center.text-center.mb-4           
@@ -34,10 +34,10 @@
                 .col-lg-3.my-3
                   .bg-card.p-3.h-100
                     img.img-a.img-t.mb-3(src="@/assets/curso/temas/t2/tarj-ico3.svg")
-                    h5.mb-0 Ubunto
+                    h5.mb-0 Ubuntu
 
               .cajon.color-primario.p-4
-                p.mb-0 La virtualización es el proceso mediante el cual es posible crear una representación de elementos físicos como servidores, sistemas de almacenamiento, redes e incluso aplicaciones mediante software de modo que se puedan reducir los costos asociados a infraestructura de TI, al tiempo que se mejora la eficiencia en el uso de estos recursos (VMware, 2011).                     
+                p.mb-0 La virtualización es el proceso mediante el cual es posible crear una representación de elementos físicos como servidores, sistemas de almacenamiento, redes e incluso aplicaciones mediante #[em software] de modo que se puedan reducir los costos asociados a infraestructura de TI, al tiempo que se mejora la eficiencia en el uso de estos recursos (VMware, 2011).                     
       
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-8    
@@ -56,14 +56,14 @@
           .col-lg-7.my-3 
             p Normalmente un conjunto de recursos de infraestructura, como discos, memorias, procesadores, etc., que están presentes en un equipo o grupo de servidores, son ocupados únicamente por el sistema operativo y las aplicaciones que se ejecutan sobre este; dichos recursos no siempre usan todo su potencial al 100 %, lo que provoca desperdicios. Con la virtualización, se puede hacer que estos recursos ejecuten una o varias máquinas virtuales al mismo tiempo y cada una de estas máquinas podrá ejecutar su propio conjunto de aplicaciones con sistemas operativos totalmente independientes. 
             .row.align-items-center.mb-4
-              .col-1
+              .col-lg-1.d-none.d-lg-flex
                 img.img-t(src="@/assets/curso/temas/t2/2.svg")
-              .col-11
-                p.mb-0 Una máquina virtual (MV) es un software especial que funciona como un contenedor de software donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales, cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como host. 
+              .col-lg-11
+                p.mb-0 Una máquina virtual (MV) es un #[em software] especial que funciona como un contenedor de #[em software] donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales, cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como #[em host]. 
             .row
               .col-auto
                 .bgt.p-2
-                  h4.mb-0.text-white Ventajas al implementar esquemas de virtualización                  
+                  h4.mb-0 Ventajas al implementar esquemas de virtualización                  
           .col-lg-5.my-3  
             img.img-t.img-a(src="@/assets/curso/temas/t2/img2.png")
 
@@ -93,14 +93,14 @@
         .row.mb-4
           .col-auto
             .bgt.p-2
-              h4.mb-0.text-white Tipos de virtualización
-        p Existen varias formas de virtualizar, pero el común denominador de la virtualización es el aprovechamiento de los recursos de hardware y software para que estos puedan ser utilizados de forma flexible por parte de los usuarios o clientes. A continuación se describen los tipos de virtualización.
+              h4.mb-0 Tipos de virtualización
+        p Existen varias formas de virtualizar, pero el común denominador de la virtualización es el aprovechamiento de los recursos de #[em hardware] y #[em software] para que estos puedan ser utilizados de forma flexible por parte de los usuarios o clientes. A continuación se describen los tipos de virtualización.
         .row.justify-content-center.align-items-center.mb-4           
           .col-lg-8.my-3        
             .row.mb-4
               .col-auto
                 .bgt.p-2
-                  h4.mb-0.text-white Virtualización de servidores
+                  h4.mb-0 Virtualización de servidores
             p Este tipo de virtualización tiene ventajas clave:                  
             ul.lista-ul.fa-ul.ms-5
               li 
@@ -119,7 +119,7 @@
                 i.fas.fa-play.c1
                 | Distribución más rápida de las cargas de trabajo.   
             .cajon.color-primario.p-4
-              p.mb-0 La virtualización de servidores es una implementación en la que un servidor físico (host) se divide mediante software en varios servidores virtuales únicos y aislados, los cuales se visualizan al cliente como servidores independientes. 
+              p.mb-0 La virtualización de servidores es una implementación en la que un servidor físico (#[em host]) se divide mediante #[em software] en varios servidores virtuales únicos y aislados, los cuales se visualizan al cliente como servidores independientes. 
           .col-lg-4.my-3        
             img.img-t.img-a(src="@/assets/curso/temas/t2/img3.png")
 
@@ -129,34 +129,33 @@
       .col-lg-8
         LineaTiempoD.color-acento-botones.ta(data-aos="fade-left")
           div(numero="1" titulo="Virtualización completa")
-            p En este tipo de virtualización se usa el hipervisor, el cual es un software que se encarga de la supervisión y gestión de los recursos físicos y adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente, lo que puede afectar el rendimiento general del servidor.          
+            p En este tipo de virtualización se usa el hipervisor, el cual es un #[em software] que se encarga de la supervisión y gestión de los recursos físicos y adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente, lo que puede afectar el rendimiento general del servidor.          
             img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img1.svg")
           div(numero="2" titulo="Paravirtualización")
-            p En este esquema, cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros, por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos. Adicionalmente, se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y, en algunos casos, se pueden presentar problemas de compatibilidad de hardware.          
+            p En este esquema, cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros, por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos. Adicionalmente, se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y, en algunos casos, se pueden presentar problemas de compatibilidad de #[em hardware].          
             img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img2.svg")            
-          
-      .col-lg-4
+      .col-lg-4.d-none.d-lg-flex
         img.img-t.img-a(src="@/assets/curso/temas/t2/img4.png")            
 
     .row.mb-4
       .col-auto
         .bgt.p-2
-          h4.mb-0.text-white Virtualización a nivel de sistema operativo o basada en contenedores 
+          h4.mb-0 Virtualización a nivel de sistema operativo o basada en contenedores 
 
     .position-relative
-      img(src="@/assets/curso/temas/t2/img5.png").d-none.d-md-flex
+      img(src="@/assets/curso/temas/t2/img5.png")
       .container-text.col-11.mx-auto
-        p.mb-0 Es este esquema de virtualización no se usa Hipervisor, sino que es el sistema operativo del servidor físico quien se encarga de las actividades de virtualización, sin embargo, en este esquema los servidores virtuales deben ejecutar el mismo sistema operativo del host. 
+        p.mb-0 Es este esquema de virtualización no se usa Hipervisor, sino que es el sistema operativo del servidor físico quien se encarga de las actividades de virtualización, sin embargo, en este esquema los servidores virtuales deben ejecutar el mismo sistema operativo del #[em host]. 
         
     .row.mb-4
       .col-auto
         .bgt.p-2
-          h4.mb-0.text-white Virtualización de red
+          h4.mb-0 Virtualización de red
     .row.align-items-center.mb-4
-      .col-auto
+      .col-lg-1.d-none.d-lg-flex
         img.img-t(src="@/assets/curso/temas/t2/3.svg")
-      .col
-        p.mb-0 Consisten en crear redes virtuales independientes y separadas mediante el uso de software sobre redes físicas. Este tipo de virtualización se puede presentar de dos maneras:       
+      .col-lg-11
+        p.mb-0 Consisten en crear redes virtuales independientes y separadas mediante el uso de #[em software] sobre redes físicas. Este tipo de virtualización se puede presentar de dos maneras:       
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7(data-aos="fade-left")
@@ -173,7 +172,7 @@
           .tarjeta.bg-1.bx-sh1
             .p-4
               h3 Virtualización interna
-              p.mb-0 la cual hace uso de contenedores de software para proveer la funcionalidad de una unidad de red física.  Algunos ejemplos de aplicaciones y enfoque de virtualización de red son: VPN, VLAN, SDN.  
+              p.mb-0 la cual hace uso de contenedores de #[em software] para proveer la funcionalidad de una unidad de red física.  Algunos ejemplos de aplicaciones y enfoque de virtualización de red son: VPN, VLAN, SDN.  
 
       .col-lg-5.col-md-8.mb-4.mb-lg-0(data-aos="fade-right")
         img.px-lg-4(src="@/assets/curso/temas/t2/img6.png", alt="")  
@@ -183,7 +182,7 @@
         .row.mb-4
           .col-auto
             .bgt.p-2
-              h4.mb-0.text-white Virtualización de escritorios           
+              h4.mb-0 Virtualización de escritorios           
         p Estas máquinas de escritorio virtuales se entregan a los usuarios de forma remota a través de una red pública o privada, los usuarios no necesitan descargar la  máquina virtual.
 
         .row.justify-content-center.align-items-center.mb-5           
@@ -204,8 +203,7 @@
                   .col-8
                     img.img-a.img-t(src='@/assets/curso/temas/t2/tarj4-ico3.svg' alt='')
                 p Reciben la imagen de sus escritorios desde los servidores de forma remota.   
-
-          .col-lg-6
+          .col-lg-6.d-none.d-lg-flex
             img.img-a.img-t(src='@/assets/curso/temas/t2/img7.svg' alt='')
 
 
@@ -216,12 +214,12 @@
             .row.mb-4
               .col-auto
                 .bgt.p-2
-                  h4.mb-0.text-white Herramientas de virtualización de servidores           
+                  h4.mb-0 Herramientas de virtualización de servidores           
             .row.align-items-center.mb-4
-              .col-1
+              .col-lg-1.d-none.d-lg-flex
                 img.img-t(src="@/assets/curso/temas/t2/4.svg")
-              .col-11
-                p.mb-0 En el mercado existen muchas herramientas de software creadas para facilitar el proceso de virtualización de servidores, en la Tabla 1 se listan algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
+              .col-lg-11
+                p.mb-0 En el mercado existen muchas herramientas de #[em software] creadas para facilitar el proceso de virtualización de servidores, en la Tabla 1 se listan algunas de estas herramientas para entornos domésticos y pequeñas empresas junto con cada una de sus características principales.
               
           .col-lg-5.my-3  
             img.img-t.img-a(src="@/assets/curso/temas/t2/img7.png")
@@ -229,21 +227,20 @@
     .row.mb-4
       .col-auto
         .bgt.p-2
-          h4.mb-0.text-white Listado de herramientas para virtualización de servidores
-
+          h4.mb-0 Listado de herramientas para virtualización de servidores
 
     LineaTiempoD.color-acento-botones.ta.mb-5(data-aos="fade-left")
       div(numero="1" titulo="<i>VMware</i>")
         ul.lista-ul.fa-ul.ms-5
           li 
             i.fas.fa-play.c2
-            | Gran cantidad de paquetes de software disponibles para virtualización.
+            span.mb-0 Gran cantidad de paquetes de #[em software] disponibles para virtualización.
           li 
             i.fas.fa-play.c2
             | Tiene soluciones libres y de pago.
           li 
             i.fas.fa-play.c2
-            | Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU host cuando esta tiene procesadores Intel.
+            span.mb-0 Compatibilidad con la tecnología Intel VT-x, la cual le permite ejecutar máquinas virtuales en forma nativa de la CPU #[em host] cuando esta tiene procesadores Intel.
        
         .tarjeta.bg-gradient2.p-3.mb-4.mx-3.mx-lg-5
           .row.justify-content-around.align-items-center
@@ -263,7 +260,7 @@
         ul.lista-ul.fa-ul.ms-5
           li 
             i.fas.fa-play.c2
-            | Software gratuito descargable desde su sitio web oficial.
+            span.mb-0 #[em Software] gratuito descargable desde su sitio web oficial.
           li 
             i.fas.fa-play.c2
             | Posibilidad de instalar máquinas Linux, MacOS y Windows en la gran mayoría de versiones de forma gratuita.
@@ -289,7 +286,7 @@
         ul.lista-ul.fa-ul.ms-5
           li 
             i.fas.fa-play.c2
-            | Disponible en forma nativa en S.O Windows en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de software externo al sistema.
+            span.mb-0 Disponible en forma nativa en S.O Windows en versión pro y server. Es decir, si se tiene este tipo de versiones estará disponible de forma gratuita y no requiere de instalación de #[em software] externo al sistema.
           li 
             i.fas.fa-play.c2
             | Sirve para virtualizar sistemas Windows y otros como Linux y FreeBSD.
@@ -315,7 +312,7 @@
         ul.lista-ul.fa-ul.ms-5
           li 
             i.fas.fa-play.c2
-            | Es software libre y está disponible para diferentes tipos de sistemas operativos.
+            span.mb-0 Es #[em software] libre y está disponible para diferentes tipos de sistemas operativos.
           li 
             i.fas.fa-play.c2
             | No dispone de GUI pero se puede instalar mediante una extensión para en Mac y en Windows.
@@ -350,7 +347,7 @@
             | Compatibilidad con la tecnología Intel VT-x.
           li 
             i.fas.fa-play.c2
-            | Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina host y las virtuales
+            span.mb-0 Permite traspaso de archivos, carpetas compartidas y comunicación de todo tipo de dispositivos de E/S entre la máquina #[em host] y las virtuales.
           li 
             i.fas.fa-play.c2
             | Se debe pagar licencia para su uso.
@@ -377,8 +374,8 @@
             .row.mb-4
               .col-auto
                 .bgt.p-2
-                  h4.mb-0.text-white Ejemplo de virtualización
-            p.mb-5 En el siguiente recurso, se podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo Windows. Para este ejemplo, se utilizará una máquina host con sistema operativo Windows 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04, por medio de la herramienta Oracle Virtual Box.
+                  h4.mb-0 Ejemplo de virtualización
+            p.mb-5 En el siguiente recurso, se podrá consultar un ejemplo paso a paso de cómo realizar un proceso de virtualización de una máquina con sistema operativo Linux, en una máquina con sistema operativo Windows. Para este ejemplo, se utilizará una máquina #[em host] con sistema operativo Windows 10 Home de 64 bits y se virtualiza y ejecutará una máquina virtual con sistema operativo Ubuntu desktop 20.04, por medio de la herramienta Oracle Virtual Box.
               
             .tarjeta.bgplay.p-3.mb-4.mx-3.mx-lg-5
               .row.justify-content-around.align-items-center
@@ -391,7 +388,7 @@
                         h4 Video tutorial 
                         p.mb-0 Se sugiere consultar el siguiente video para profundizar en la temática
                     .col-sm-auto
-                      a.boton.color-acento-botones(:href="('https://www.parallels.com/')" target="_blank")
+                      a.boton.color-acento-botones(:href="('https://www.youtube.com/embed/tqOc8Z9shVM')" target="_blank")
                         span Ver video              
           .col-lg-5.my-3  
             img.img-t.img-a(src="@/assets/curso/temas/t2/img8.png")                                                                   
@@ -405,10 +402,10 @@
     .row.fondo6-t2.align-items-center.pt-4
       .col-lg-12.col-12.px-lg-5.px-4 
         .row.justify-content-center.align-items-center          
-          .col-lg-4.my-3
+          .col-lg-4.d-none.d-lg-flex.my-3
             img.img-t.img-a(src="@/assets/curso/temas/t2/img9.png")
           .col-lg-8.my-3
-            p #[b.t1 Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión] (Alarcón, 2018). De igual manera debe existir un componente de infraestructura de tipo hardware que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o, si se trata del despliegue y puesta en producción final de la aplicación, puede referirse a un proveedor que suministra el hardware necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean, entre otras, como lo muestra la siguiente imagen.  
+            p #[b.t1 Las máquinas virtuales son un sistema operativo completo funcionando de manera aislada dentro de otro sistema operativo anfitrión] (Alarcón, 2018). De igual manera debe existir un componente de infraestructura de tipo #[em hardware] que soporte todo lo anterior que en últimas es el servidor o equipo donde se haga el desarrollo y creación de la máquina virtual o, si se trata del despliegue y puesta en producción final de la aplicación, puede referirse a un proveedor que suministra el #[em hardware] necesario que soportará la máquina virtual como Azure, Google Cloud, AWS, Digital Ocean, entre otras, como lo muestra la siguiente imagen.  
             .titulo-sexto.color-acento-contenido
               p.mb-0 #[b Figura 4.] Funcionamiento de una Máquina virtual
             img.img-t.img-a(src="@/assets/curso/temas/t2/fig4.svg", alt="Esquema que presenta los elementos de una máquina virtual, en la cual un sistema operativo (hipervisor) funciona en un sistema operativo anfitrión.")
@@ -451,14 +448,14 @@
         .row.justify-content-evenly
           .col-md-6.mb-4.mb-md-0
             h4 Migración
-            p Describe el proceso de mover una máquina virtual de un host a otro. Esto es posible porque los invitados están corriendo en un entorno virtualizado en lugar de directamente sobre el hardware. Hay dos maneras de migrar una máquina virtual: en vivo y fuera de línea.
+            p Describe el proceso de mover una máquina virtual de un #[em host] a otro. Esto es posible porque los invitados están corriendo en un entorno virtualizado en lugar de directamente sobre el #[em hardware]. Hay dos maneras de migrar una máquina virtual: en vivo y fuera de línea.
             ul.lista-ul.fa-ul.ms-5
               li 
                 i.fas.fa-play.c1
-                span #[b.t-blue Migración fuera de línea:] una migración fuera de línea suspende al invitado, y después mueve una imagen de la memoria del invitado al host destino. El invitado es posteriormente puesto en marcha sobre el host destino y la memoria usada por el invitado en la host fuente liberada. 
+                span #[b.t-blue Migración fuera de línea:] una migración fuera de línea suspende al invitado, y después mueve una imagen de la memoria del invitado al #[em host] destino. El invitado es posteriormente puesto en marcha sobre el #[em host] destino y la memoria usada por el invitado en la #[em host] fuente liberada. 
               li 
                 i.fas.fa-play.c1
-                span #[b.t-blue Migración en vivo:] la migración en vivo es el proceso de migrar un invitado activo de un host físico a otro.                 
+                span #[b.t-blue Migración en vivo:] la migración en vivo es el proceso de migrar un invitado activo de un #[em host] físico a otro.                 
           .col-md-4
             img(src='@/assets/curso/temas/t2/tab-img3.svg' alt='')   
       .py-4.py-md-5.bg-5(titulo="Alta disponibilidad" :icono="require('@/assets/curso/temas/t2/tab-ico4.svg')")
@@ -472,17 +469,17 @@
     .row.fondo7-t2.align-items-center.pt-4
       .col-lg-12.col-12.px-lg-5.px-4 
         .row.justify-content-center.align-items-center          
-          .col-lg-5.my-3
+          .col-lg-5.col-8.my-3
             img.img-t.img-a(src="@/assets/curso/temas/t2/img10.png")
           .col-lg-7.my-3
-            p #[b.t-blue La digitalización de la fabricación implica enviar y recibir una gran cantidad de datos desde numerosos orígenes y puntos de datos diferentes]. Las aplicaciones y paquetes de software encargados de conectar estos puntos de datos requieren más capacidad de computación de la que jamás habían necesitado. Las empresas industriales están comenzando a cambiar de soluciones físicas de hardware a ambientes virtuales donde pueden residir varias aplicaciones y sistemas operativos.  
-            .tarjeta-avatar-b
+            p #[b.t-blue La digitalización de la fabricación implica enviar y recibir una gran cantidad de datos desde numerosos orígenes y puntos de datos diferentes]. Las aplicaciones y paquetes de #[em software] encargados de conectar estos puntos de datos requieren más capacidad de computación de la que jamás habían necesitado. Las empresas industriales están comenzando a cambiar de soluciones físicas de #[em hardware] a ambientes virtuales donde pueden residir varias aplicaciones y sistemas operativos.  
+            .tarjeta-avatar-b.tema2-3
               .tarjeta-avatar-b__img
                 img.img-a.img-t(src='@/assets/curso/temas/t2/7.svg' alt='')
               .tarjeta.bggray.bx-sh1
                 .p-4
                   h3 Virtualización, ¿para qué sirve?
-                  p.mb-0 La virtualización esencialmente elimina la dependencia entre el sistema operativo y el hardware físico. Ha sido una implementación más habitual en plantas y líneas de nuevo diseño, en las que es posible comenzar desde cero con un ambiente virtual.     
+                  p.mb-0 La virtualización esencialmente elimina la dependencia entre el sistema operativo y el #[em hardware] físico. Ha sido una implementación más habitual en plantas y líneas de nuevo diseño, en las que es posible comenzar desde cero con un ambiente virtual.     
           .col-10
             .cajon.color-acento-contenido.p-4
               p.mb-0 Las plantas de mayor tamaño también han comenzado a cambiar a servidores virtuales, gracias a los grandes centros de datos. Sea cual sea el tamaño de su planta, la planta conectada es el futuro de la fabricación y la virtualización desempeñará un papel cada vez más importante en el espacio de la OT. La tendencia de migración a servidores permite ahora trasladar servidores virtuales de una máquina física a otra, y se encuentra aún en sus primeras fases

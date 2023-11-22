@@ -401,7 +401,7 @@ export default {
         },
         {
           nombre: 'Miroslava González Hernández',
-          cargo: 'Animador y Productor Multimedia',
+          cargo: 'Diseñadora Instruccional',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
