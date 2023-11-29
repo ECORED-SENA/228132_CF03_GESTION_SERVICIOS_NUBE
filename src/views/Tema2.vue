@@ -126,8 +126,8 @@
     p Se clasifica en dos tipos, estos son:
 
     .row.justify-content-center.align-items-center.mb-5           
-      .col-lg-8
-        LineaTiempoD.color-acento-botones.ta(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
+        LineaTiempoD.color-acento-botones.ta
           div(numero="1" titulo="Virtualización completa")
             p En este tipo de virtualización se usa el hipervisor, el cual es un #[em software] que se encarga de la supervisión y gestión de los recursos físicos y adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente, lo que puede afectar el rendimiento general del servidor.          
             img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img1.svg")
@@ -158,7 +158,7 @@
         p.mb-0 Consisten en crear redes virtuales independientes y separadas mediante el uso de #[em software] sobre redes físicas. Este tipo de virtualización se puede presentar de dos maneras:       
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-right")
         .tarjeta-avatar-b.mb-4
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t2/tarj3-ico1.svg' alt='')
@@ -174,7 +174,7 @@
               h3 Virtualización interna
               p.mb-0 la cual hace uso de contenedores de #[em software] para proveer la funcionalidad de una unidad de red física.  Algunos ejemplos de aplicaciones y enfoque de virtualización de red son: VPN, VLAN, SDN.  
 
-      .col-lg-5.col-md-8.mb-4.mb-lg-0(data-aos="fade-right")
+      .col-lg-5.col-md-8.mb-4.mb-lg-0(data-aos="fade-left")
         img.px-lg-4(src="@/assets/curso/temas/t2/img6.png", alt="")  
 
     .row.fondo4-t2.align-items-center.pt-4
@@ -388,7 +388,7 @@
                         h4 Video tutorial 
                         p.mb-0 Se sugiere consultar el siguiente video para profundizar en la temática
                     .col-sm-auto
-                      a.boton.color-acento-botones(:href="('https://www.youtube.com/embed/tqOc8Z9shVM')" target="_blank")
+                      a.boton.color-acento-botones(:href="('https://www.youtube.com/embed/CfIdhDllQiE')" target="_blank")
                         span Ver video              
           .col-lg-5.my-3  
             img.img-t.img-a(src="@/assets/curso/temas/t2/img8.png")                                                                   
