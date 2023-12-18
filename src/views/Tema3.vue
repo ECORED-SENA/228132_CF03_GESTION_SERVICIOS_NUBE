@@ -40,7 +40,7 @@
               .bloque-texto-e.bg-gradient3.br-10.p-4.mb-4
                 .bloque-texto-e__texto.ptop.p-relative
                   img.adorn(src='@/assets/curso/temas/t1/vineta.svg', alt='')
-                  p.text-white.pt-5 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o #[em host], logrando un mejor rendimiento ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host].
+                  p.text-white.pt-5 En este modelo los contenedores no son más que máquinas virtuales aisladas entre sí, con un #[em software] específico que no tiene un sistema operativo propio, sino que comparte los recursos y el #[em kernel] del sistema operativo de la máquina anfitriona o #[em host], logrando un mejor rendimiento, ya que solo existe un sistema operativo encargado de la gestión de la infraestructura en la máquina anfitriona o #[em host].
                   div.pt-5.j-end
                     p.text-white.fw-bold López (2018)
                     i.fas.fa-square-full
@@ -57,7 +57,7 @@
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Disminución de gastos")
             .col-md-12.mb-4.mb-md-0
-              p.mb-0 Requieren menos recursos del sistema comparado con sistema de virtualización tradicionales. 
+              p.mb-0 Requieren menos recursos del sistema, comparado con sistemas de virtualización tradicionales. 
           .row(numero="2" titulo="Mayor portabilidad")
             .col-md-12.mb-4.mb-md-0
               p.mb-0 Se pueden implementar fácilmente en diferentes plataformas y sistemas operativos.

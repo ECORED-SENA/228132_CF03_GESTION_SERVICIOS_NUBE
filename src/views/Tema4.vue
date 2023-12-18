@@ -56,7 +56,7 @@
             .col-lg-1.d-none.d-lg-flex
               img.mx-auto(src="@/assets/curso/temas/t4/ptos1.svg", style="max-width: 40px;")
             .col-lg-11
-              p.mb-0 Suelen basarse en tecnologías SCSI- #[em Small Computers System Interface] y FC- #[em Fiber Channel]. Esta arquitectura de almacenamiento se relacionaba principalmente con la época de los “#[em Mainframe]” de IBM. Sin embargo, hoy en día, los PC’s de sobremesa utilizan arquitectura de almacenamiento DAS, mientras que, en los servidores de las empresas, empieza a caer en desuso, utilizándose únicamente para el almacenamiento del sistema operativo.
+              p.mb-0 Suelen basarse en tecnologías SCSI- #[em Small Computers System Interface] y FC- #[em Fiber Channel]. Esta arquitectura de almacenamiento se relacionaba principalmente con la época de los “#[em Mainframe]” de IBM. Sin embargo, hoy en día, los PC de sobremesa utilizan arquitectura de almacenamiento DAS, mientras que, en los servidores de las empresas, empieza a caer en desuso, utilizándose únicamente para el almacenamiento del sistema operativo.
           .cajon.color-acento-contenido.c2.p-4.mb-3
             p.mb-0 La arquitectura de almacenamiento DAS presenta muchos inconvenientes, como la dispersión del almacenamiento, que implica una dificultad en la gestión de los #[em backups], así como una baja tolerancia a fallos (sólo posible a través de soluciones RAID), y un alto TCO- #[em Total Cost of Ownership], debido a las dificultades de mantenimiento.
         .col-md-6
@@ -130,7 +130,7 @@
           .tarjeta.bg-1.bx-sh1
             .p-4
               h3 Seguridad
-              p.mb-0 Las redes de almacenamiento basadas en FC en principio son más seguras que las basadas en #[em Ethernet] ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
+              p.mb-0 Las redes de almacenamiento basadas en FC en principio son más seguras que las basadas en #[em Ethernet], ya que el tráfico está aislado del tráfico normal. Pero por otro lado es más complicado implementar sistemas de autenticación y encriptación.
         .tarjeta-avatar-b.tema4-3
           .tarjeta-avatar-b__img
             img(src='@/assets/curso/temas/t4/tarj-ico2.svg' alt='')
@@ -165,7 +165,7 @@
                 img(src="@/assets/curso/temas/t4/ptos5.svg")
               .col-lg-11
                 p.mb-0.t-blue.fw-bold El coste y rendimiento de cada solución puede variar grandemente siendo los dispositivos dedicados los que ofrecen mayor rendimiento, pero a un coste más alto
-            p En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tiene un límite de 1 Gpbs. A diferencia de iSCSI no permite #[em multipathing] ofreciendo un rendimiento inferior.
+            p En la mayoría de los casos, NAS no ofrece el mismo rendimiento que una red SAN FC, pero una arquitectura de red bien configurada puede ofrecer un rendimiento adaptado a tus necesidades. De manera similar a iSCSI, NAS utiliza tarjetas de red para comunicarse con los dispositivos de almacenamiento, por lo tanto tiene un límite de 1 Gpbs. A diferencia de iSCSI no permite #[em multipathing] ofreciendo un rendimiento inferior.
           .col-md-4
             img(src='@/assets/curso/temas/t4/tab2-img2.svg' alt='')
       .p-4.py-md-5.bg-5(titulo="Desventajas" :icono="require('@/assets/curso/temas/t4/tab2-ico1.svg')")

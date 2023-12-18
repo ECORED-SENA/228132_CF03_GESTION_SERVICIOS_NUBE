@@ -17,9 +17,9 @@
             .col-lg-8(data-aos="fade-left")
               img.mx-auto.pb-4(src="@/assets/curso/temas/t1/microsoft.png", style="max-width: 500px;")
               .bb-2
-              p.pt-4 #[em Active Directory], o también conocido como Directorio Activo (AD), es una herramienta propiedad de Microsoft que brinda servicios de directorio en una red LAN. Microsoft es el gigante tecnológico del #[em software], proveedor de los sistemas operativos Windows, #[em software] ofimático MS Office, entre otros servicios en la nube.
+              p.pt-4 Active directory, o también conocido como Directorio Activo (AD), es una herramienta propiedad de Microsoft que brinda servicios de directorio en una red LAN. Microsoft es el gigante tecnológico del #[em software], proveedor de los sistemas operativos Windows, #[em software] ofimático MS Office, entre otros servicios en la nube.
           
-          p.mb-4(data-aos="fade") El siguiente recurso presenta información en detalle de #[em Active Directory].
+          p.mb-4(data-aos="fade") El siguiente recurso presenta información en detalle de Active directory.
 
           .row.justify-content-center.mb-3(data-aos="fade-down")
             .col-lg-4.col-md-6.mb-3
@@ -35,7 +35,7 @@
                 img.mx-auto.mb-4(src="@/assets/curso/temas/t1/tarj-ico3.svg", style="max-width: 110px;")
                 p.text-center Está orientada al uso profesional, en entornos de trabajo con importantes recursos informáticos, en donde es necesario administrar gran cantidad de equipos en cuanto a actualizaciones o instalación de programas o la creación de archivos centralizados para poder acceder a los recursos de forma remota desde las estaciones de trabajo.
 
-          p.mb-4(data-aos="fade") Lo anterior ratifica que la implementación de #[em Active Directory] es la forma ideal de centralizar muchos de los componentes típicos de una red LAN sin necesidad de ir equipo por equipo y evitando que los usuarios puedan hacer lo que quieran en una red.
+          p.mb-4(data-aos="fade") Lo anterior ratifica que la implementación de Active directory es la forma ideal de centralizar muchos de los componentes típicos de una red LAN sin necesidad de ir equipo por equipo y evitando que los usuarios puedan hacer lo que quieran en una red.
 
     Separador
 
@@ -51,15 +51,15 @@
               img(src="@/assets/curso/temas/t1/img2.png")
             .col-lg-7.mb-4.mb-lg-0(data-aos="fade-left")
               .bg-3.mb-4.p-3.mnl-22
-                p.mb-0 Un controlador de dominio, también conocido como directorio activo (#[em Active Directory] por sus siglas en inglés), cumple la función principal de agrupar varios ordenadores en una misma red, a lo que se conoce como dominio; el controlador de dominio es capaz de orquestar reglas o políticas para cada dominio que se tenga.
+                p.mb-0 Un controlador de dominio, también conocido como directorio activo (Active directory en inglés), cumple la función principal de agrupar varios ordenadores en una misma red, a lo que se conoce como dominio; el controlador de dominio es capaz de orquestar reglas o políticas para cada dominio que se tenga.
               .row.align-items-center
                 .col-lg-1.d-none.d-lg-flex
                   img(src="@/assets/curso/temas/t1/puntos.svg")
                 .col-lg-11
-                  p.mb-0 El dominio dentro de #[em Active Directory] consiste en varios ordenadores conectados a una red, los cuales cuentan con un equipo servidor para administrar las cuentas de usuario y credenciales de la red. Los dominios no necesariamente tienen que estar en contacto unos con otros; por ejemplo, un dominio (A) tiene acceso a otros dos dominios (B y C), esto no implica que C tenga acceso a B.
+                  p.mb-0 El dominio dentro de Active directory consiste en varios ordenadores conectados a una red, los cuales cuentan con un equipo servidor para administrar las cuentas de usuario y credenciales de la red. Los dominios no necesariamente tienen que estar en contacto unos con otros; por ejemplo, un dominio (A) tiene acceso a otros dos dominios (B y C), esto no implica que C tenga acceso a B.
             .col-12
               .cajon.color-acento-contenido.p-4
-                p.mb-0 Entonces, cuando se hace referencia a #[em Active Directory] también se debe entender como controlador de dominio, en donde se pueden crear distintos dominios y gestionar permisos e interacción en cada uno de ellos. A esta relación entre dominios se le denomina relación de confianza o trust.
+                p.mb-0 Entonces, cuando se hace referencia a Active directory también se debe entender como controlador de dominio, en donde se pueden crear distintos dominios y gestionar permisos e interacción en cada uno de ellos. A esta relación entre dominios se le denomina relación de confianza o #[em trust].
 
 
     Separador
@@ -76,7 +76,7 @@
               .bloque-texto-g__img(
                 :style="{'background-image': `url(${require('@/assets/curso/temas/t1/bloque.svg')})`}")
               .bloque-texto-g__texto.p-4
-                p.mb-0 Los servicios de directorio se pueden presentar en una red, la cual puede estar compuesta por una estructura física y lógica. Físicamente, los servicios se sirven sobre una topología de red que interconecta los hosts u ordenadores. La estructura lógica, por otro lado, es la parte fundamental en los servicios de directorio, desde allí se organizan diversas reglas para los dominios. La gestión de dichas reglas tiene un esquema en el #[em Active Directory] compuesto en árboles y bosques, que se distribuye como se muestra a continuación.
+                p.mb-0 Los servicios de directorio se pueden presentar en una red, la cual puede estar compuesta por una estructura física y lógica. Físicamente, los servicios se sirven sobre una topología de red que interconecta los #[em hosts] u ordenadores. La estructura lógica, por otro lado, es la parte fundamental en los servicios de directorio, desde allí se organizan diversas reglas para los dominios. La gestión de dichas reglas tiene un esquema en el Active directory compuesto en árboles y bosques, que se distribuye como se muestra a continuación.
 
           .col-lg-9.mb-4(data-aos="fade-down")
             .titulo-sexto.color-acento-contenido
@@ -104,7 +104,7 @@
       .tarjeta.bg-3
         .p-4
           h5 Unidad organizativa, árbol y bosque
-          p.mb-0 Un bosque contiene varios árboles de dominio con nombres diferentes. También, un bosque cuenta por lo menos con un dominio raíz, de tal manera que cuando se instala o configura el primer dominio se crea automáticamente la raíz de un árbol y por encima, la raíz de un bosque.
+          p.mb-0 Un bosque contiene varios árboles de dominio con nombres diferentes. También, un bosque cuenta por lo menos con un dominio raíz, de tal manera que cuando se instala o configura el primer dominio, se crea automáticamente la raíz de un árbol y por encima, la raíz de un bosque.
 
 
     Separador
@@ -156,7 +156,7 @@
         .row.align-items-center.justify-content-evenly
           .col-md-6.mb-4.mb-md-0
             h4 Asignación de permisos
-            p.mb-0 Para asignar derechos y permisos a un controlador de dominio local determinado se puede utilizar las funciones disponibles en usuarios y equipos de #[em Active Directory].
+            p.mb-0 Para asignar derechos y permisos a un controlador de dominio local determinado se puede utilizar las funciones disponibles en usuarios y equipos de Active directory.
           .col-md-4
             img(src='@/assets/curso/temas/t1/tab-img1.svg', alt='')
       .p-4.bg-5(titulo="Derecho")
@@ -185,7 +185,7 @@
             ModalA(:abrir-modal.sync="modal1")
               div
                 figure
-                  img.mx-auto(src='@/assets/curso/temas/t1/t1-26.svg', style="max-width:870px;")
+                  img.mx-auto(src='@/assets/curso/temas/t1/t1-26.svg', alt="Esquema gráfico que ilustra la configuración y funcionamiento de un servidor controlador de usuarios de un dominio B, B y C, los cuales se pueden conectar al servidor desde cualquier ordenador que sea miembro del dominio.", style="max-width:870px;")
     
     .row.fondo5-t1.align-items-center.py-4.py-lg-0.mb-4
       .col-lg-12.col-12.px-lg-5.px-4
@@ -223,7 +223,7 @@
                 img(src='@/assets/curso/temas/t1/new-ico2.svg' alt='')
               .tarjeta.bg-3
                 .p-4
-                  p.mb-0 Para los administradores crear hosts de estación de trabajo dedicados.
+                  p.mb-0 Para los administradores crear #[em hosts] de estación de trabajo dedicados.
             .tarjeta-avatar-b.tema1-3.mb-3
               .tarjeta-avatar-b__img
                 img(src='@/assets/curso/temas/t1/new-ico3.svg' alt='')
@@ -249,7 +249,7 @@
       .col-11
         .bg-1.bx-sh1.br-10.p-4.mt-n3
           p.mb-0 Dentro del controlador de dominio o 
-            span.t-blue #[em #[b Active Directory ]] 
+            span.t-blue #[b Active Directory ]
             |  un objeto es la representación general que se utiliza para referirse a cualquier elemento del directorio sobre el cual se aplican reglas y atributos. Los objetos se pueden agrupar en los siguientes grupos.
 
     .row.justify-content-center(data-aos="fade-down")
@@ -284,14 +284,14 @@
           .col-lg-8(data-aos="fade-left")
             p 
               span.t-blue #[b Las políticas de dominio]
-              |, también llamadas de políticas de grupo o reglas del #[em active directory], consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo, existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio, ya sea local o en la nube, a continuación, se describen algunas de estas.
+              |, también llamadas de políticas de grupo o reglas del Active directory, consisten en las reglas para el control de acceso a recursos y servicios para los usuarios. De toda la gama de políticas de grupo, existen algunas que denotan mayor relevancia por su importancia en la seguridad digital, y que se deben seguir como buenas prácticas en la implementación de dominio, ya sea local o en la nube, a continuación, se describen algunas de estas.
 
     .fondo-slider.p-4.mb-4(data-aos="fade-down")
       SlyderA(tipo="b")
         .row.justify-content-evenly.align-items-center
           .col-md-7.mb-4.mb-md-0
             h4 Configuraciones de servicios y seguridad por defecto 
-            p #[em Active directory] es muy popular, esto hace que muchos delincuentes informáticos conozcan las configuraciones de los servicios y seguridad por defecto, aumentando la facilidad de acceso a los sistemas de las organizaciones. Por esto es importante que se revisen todas las funcionalidades y configuraciones del controlador de dominio que vienen por defecto, con el fin de desactivar los servicios y aplicar reglas de seguridad que sean mejores.
+            p Active directory es muy popular, esto hace que muchos delincuentes informáticos conozcan las configuraciones de los servicios y seguridad por defecto, aumentando la facilidad de acceso a los sistemas de las organizaciones. Por esto es importante que se revisen todas las funcionalidades y configuraciones del controlador de dominio que vienen por defecto, con el fin de desactivar los servicios y aplicar reglas de seguridad que sean mejores.
           .col-md-4
             img(src="@/assets/curso/temas/t1/slider-img1.svg", alt="")
         .row.justify-content-evenly.align-items-center
@@ -309,7 +309,7 @@
         .row.justify-content-evenly.align-items-center
           .col-md-7.mb-4.mb-md-0
             h4 Acceso remoto
-            p Se deben crear las políticas para asegurar el acceso remoto seguro de usuarios a los servidores y hosts que requieran permitirse este tipo de conexiones.
+            p Se deben crear las políticas para asegurar el acceso remoto seguro de usuarios a los servidores y #[em hosts] que requieran permitirse este tipo de conexiones.
           .col-md-4
             img(src="@/assets/curso/temas/t1/slider-img4.svg", alt="")
         .row.justify-content-evenly.align-items-center
@@ -347,7 +347,7 @@
       .col-lg-8(data-aos="fade-left")
         LineaTiempoD.color-acento-botones
           .row(numero="1" titulo="Relaciones de confianza")
-            p Existen entre dos dominios / bosques de #[em Active Directory] la relación de confianza, que consiste en un vínculo de confianza el cual permite a los usuarios autenticados acceder a los recursos de otro dominio.
+            p Existen entre dos dominios / bosques de  la relación de confianza, que consiste en un vínculo de confianza el cual permite a los usuarios autenticados acceder a los recursos de otro dominio.
             p Las relaciones de confianza pueden ser:
             ul.lista-ul--color.color-acento-botones.fa-ul.ps-4.mb-0
               li.mb-1
@@ -361,25 +361,26 @@
                 | Unidireccional.
           .row(numero="2" titulo="Replicación de objetos")
             p
-              span.t-blue #[em #[b Active Directory ]] 
+              span.t-blue #[b Active Directory] 
               | puede ser replicado por medio del método de transferir y actualizar objetos del controlador de dominio a otro controlador de dominio, por ejemplo, se podría replicar un controlador de dominio local a uno en la nube.  
             .col-12
               .cajon.color-acento-botones.p-4
                 p.mb-0 Algo fundamental para la correcta replicación de objetos son las conexiones entre los controladores de dominios, ya que se apropian con base en la ubicación de los dominios dentro de un bosque. Los dominios deben estar conectados por medio de una o más subredes, de esta manera estarán en segmentos de red por medio de intervalo de direcciones IP asociadas al dominio. Cuando se asigna el direccionamiento IP de un controlador de dominio a una subred, 
-                  span.t-blue #[b #[em Active Directory ]  reconoce los controladores de dominio que se encuentran asociados a los dominios]
+                  span.t-blue #[b Active directory  reconoce los controladores de dominio que se encuentran asociados a los dominios]
                   |. Las conexiones de los dominios o sitios son configuradas de manera que se interconecten para garantizar la replicación de los objetos de 
-                  span.t-blue #[em #[b Active Directory ]]  
+                  span.t-blue #[b Active Directory ] 
                   | de los dominios. 
           .row(numero="3" titulo="Redundancia")
             p.mb-5 La redundancia en servicios de directorio o en 
-              span.t-blue #[b #[em Active Directory ]]
+              span.t-blue #[b Active directory]
               |, consiste en una estrategia para garantizar la disponibilidad del controlador de dominio, por medio de la agregación de controladores de dominio adicionales alternos a un dominio, mejorando las solicitudes de autenticación y búsquedas en el servidor del catálogo global. 
-              span.t-blue #[b También ayuda a que los servicios de dominio de #[em Active Directory] resuelvan problemas o errores de #[em hardware], #[em software] o del administrador (#[em SysAdmin]).]
+              span.t-blue #[b También ayuda a que los servicios de dominio de Active directory resuelvan problemas o errores de #[em hardware], #[em software] o del administrador (#[em SysAdmin]).]
+            .mb-5.mb-md-0
             .col-12
               .bloque-texto-e.bg-gradient3.br-10.p-4.mb-4
                 .bloque-texto-e__texto.ptop.p-relative
                   img.adorn(src='@/assets/curso/temas/t1/vineta.svg', alt='')
-                  p.text-white.pt-5 Una de las opciones para la redundancia es realizar “Configuración de redundancia geográfica con Replicación de #[em SQL Server]” como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, “Si usa #[em SQL Server] como base de datos de configuración de AD FS (#[em Active Directory Federation Services]), puede configurar la redundancia geográfica para la granja de servidores AD FS mediante #[em SQL Server replicación]. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”
+                  p.text-white.pt-5 Una de las opciones para la redundancia es realizar “Configuración de redundancia geográfica con Replicación de #[em SQL Server]” como lo sugiere Microsoft en su portal, la compañía asegura lo siguiente, “Si usa #[em SQL Server] como base de datos de configuración de AD FS (Active Directory Federation Services), puede configurar la redundancia geográfica para la granja de servidores AD FS mediante #[em SQL Server replicación]. La redundancia geográfica replica los datos entre dos sitios geográficamente lejanos para que las aplicaciones puedan cambiar de un sitio a otro. De este modo, en caso de error de un sitio, todavía puede tener todos los datos de configuración disponibles en el segundo sitio.”
                   div.pt-5.j-end
                     p.text-white.fw-bold Microsoft (2021)
                     i.fas.fa-square-full

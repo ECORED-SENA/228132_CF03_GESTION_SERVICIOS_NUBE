@@ -44,7 +44,7 @@
         .titulo-sexto.color-acento-contenido
           p.mb-0 #[b Figura 2.] Esquema de virtualización
         figure
-          img(src='@/assets/curso/temas/t2/fig3.svg', alt='Proceso básico de la virtualización en el que se tiene una infraetsructura y un hipervisor (  del sistema operativo o de software) que administra y hace que funcionen las maquinas virtuales.')
+          img(src='@/assets/curso/temas/t2/fig3.svg', alt='Proceso básico de la virtualización en el que se tiene una infraetsructura y un hipervisor (del sistema operativo o de software) que administra y hace que funcionen las maquinas virtuales.')
 
     Separador 
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade")
@@ -59,7 +59,7 @@
               .col-lg-1.d-none.d-lg-flex
                 img.img-t(src="@/assets/curso/temas/t2/2.svg")
               .col-lg-11
-                p.mb-0 Una máquina virtual (MV) es un #[em software] especial que funciona como un contenedor de #[em software] donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma un equipo puede tener instaladas varias máquinas virtuales, cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como #[em host]. 
+                p.mb-0 Una máquina virtual (MV) es un #[em software] especial que funciona como un contenedor de #[em software] donde se incluye un sistema operativo y aplicaciones que funcionan totalmente independientes. De esta forma, un equipo puede tener instaladas varias máquinas virtuales, cada una de las cuales se ejecutan independientemente en un mismo equipo que sirve como #[em host]. 
             .row
               .col-auto
                 .bgt.p-2
@@ -130,10 +130,10 @@
         LineaTiempoD.color-acento-botones.ta
           div(numero="1" titulo="Virtualización completa")
             p En este tipo de virtualización se usa el hipervisor, el cual es un #[em software] que se encarga de la supervisión y gestión de los recursos físicos y adicionalmente se encarga de independizar cada servidor virtual. Sin embargo, el hipervisor requiere recursos para hacer el procesamiento correspondiente, lo que puede afectar el rendimiento general del servidor.          
-            img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img1.svg")
+            img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img1.svg", alt="Esquema que explica, de manera básica, el funcionamiento de un hipervisor.")
           div(numero="2" titulo="Paravirtualización")
             p En este esquema, cada sistema operativo de los servidores virtuales tiene conocimiento de la existencia de los otros, por lo cual el hipervisor se libera un poco de la carga para gestionar los sistemas operativos. Adicionalmente, se tiene ventajas como la posibilidad de crear copias de seguridad más fácilmente, migraciones más rápidas, mejor utilización del sistema y ahorro de energía. No todos los sistemas operativos soportan paravirtualización y, en algunos casos, se pueden presentar problemas de compatibilidad de #[em hardware].          
-            img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img2.svg")            
+            img.img-t.img-a(src="@/assets/curso/temas/t2/linea-img2.svg", alt="Esquema que explica, de manera básica, el funcionamiento de un hipervisor.")            
       .col-lg-4.d-none.d-lg-flex
         img.img-t.img-a(src="@/assets/curso/temas/t2/img4.png")            
 
@@ -192,7 +192,7 @@
                 .row.justify-content-center.mb-3
                   .col-8
                     img.img-a.img-t(src='@/assets/curso/temas/t2/tarj4-ico1.svg' alt='')
-                p Empleada por muchas empresas en la actualidad y también se conoce como VDI por sus siglas en inglés (infraestructura de escritorios virtuales). En este esquema se dispone de un conjunto de servidores o data centers, los cuales publican varias páginas virtuales, cada una con su propio sistema operativo, aplicaciones y servicios con su propio entorno de escritorio.      
+                p Empleada por muchas empresas en la actualidad y también se conoce como VDI por sus siglas en inglés (infraestructura de escritorios virtuales). En este esquema se dispone de un conjunto de servidores o #[em data centers], los cuales publican varias páginas virtuales, cada una con su propio sistema operativo, aplicaciones y servicios con su propio entorno de escritorio.      
               .tarjeta.color-acento-botones.m-3.p-4.h-100.bgF
                 .row.justify-content-center.mb-3
                   .col-8
@@ -279,7 +279,7 @@
                     h4.fst-italic Oracle VM VirtualBox
                     p.mb-0 En el enlace se encuentran los vínculos a los binarios de VirtualBox y su código fuente. 
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="('https://docs.docker.com/desktop/install/windows-install/')" target="_blank")
+                  a.boton.color-acento-botones(:href="('https://www.virtualbox.org/wiki/Downloads')" target="_blank")
                     span Abrir enlace
                     i.fas.fa-link
       div(numero="3" titulo="<i>Microsoft Hyper-V</i>")

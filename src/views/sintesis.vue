@@ -11,7 +11,7 @@
             img(src="@/assets/curso/temas/sint/img-sint.png")
           .col-lg-7
             .bg-white.mb-4.p-3.mnl-22
-              p.mb-0 La arquitectura de la nube, tiene algunas especificaciones técnicas que debe tener sé en cuenta cuando se van a llevar a cabo procesos de gestión en cloud.
+              p.mb-0 La arquitectura de la nube, tiene algunas especificaciones técnicas que debe tener sé en cuenta cuando se van a llevar a cabo procesos de gestión en #[em cloud].
             .row.align-items-center.mb-4
               .col-1
                 img(src="@/assets/curso/temas/sint/puntos.svg")

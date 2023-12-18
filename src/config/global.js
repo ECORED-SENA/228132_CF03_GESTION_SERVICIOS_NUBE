@@ -180,7 +180,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/228132-CF03-DU.pdf',
+        download: 'downloads/228132-CF03-DU.zip',
       },
       {
         icono: 'fas fa-download',
@@ -312,8 +312,7 @@ export default {
     {
       referencia:
         'SANS Institute. (2003). <em>Global Information Assurance Certification Paper</em>.',
-      link:
-        'https://wwgrupo/105441#:~:text=Las%20pol%C3%ADticas%20de%20grupo%20del,las%20necesidades%20de%20cada%20usuario',
+      link: 'https://www.giac.org/paper/gsec/4041/smak/106487',
     },
     {
       referencia:
@@ -350,31 +349,31 @@ export default {
       autores: [
         {
           nombre: 'Pablo Cesar Pardo Ortiz',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Hernando José Peña Hidalgo',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'José Luis Bastidas Pérez',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Joaquín Patiño Cerón',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
         {
           nombre: 'Peter Emerson Pinchao Solis',
-          cargo: 'Experto temático',
+          cargo: 'Experto Temático',
           centro:
             'Centro de Teleinformática y Producción Industrial - Regional Cauca',
         },
@@ -386,17 +385,17 @@ export default {
         },
         {
           nombre: 'María Inés Machado López',
-          cargo: 'Diseñadora instruccional',
+          cargo: 'Diseñadora Instruccional',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Carolina Coca Salazar',
-          cargo: 'Metodóloga ',
+          cargo: 'Metodóloga',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
           nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Corrección de estilo',
+          cargo: 'Corrección de Estilo',
           centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
         },
         {
@@ -418,7 +417,7 @@ export default {
         },
         {
           nombre: 'Wilson Andrés Arenales Cáceres',
-          cargo: 'Storyboard e ilustración',
+          cargo: 'Storyboard e Ilustración',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
@@ -442,7 +441,7 @@ export default {
         },
         {
           nombre: 'Andrea Paola Botello De la Rosa',
-          cargo: 'Actividad didáctica',
+          cargo: 'Actividad Didáctica',
           centro:
             'Centro Industrial del Diseño y la Manufactura - Regional Santander',
         },
