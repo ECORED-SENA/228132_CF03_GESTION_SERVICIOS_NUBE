@@ -60,13 +60,13 @@
           .cajon.color-acento-contenido.c2.p-4.mb-3
             p.mb-0 La arquitectura de almacenamiento DAS presenta muchos inconvenientes, como la dispersión del almacenamiento, que implica una dificultad en la gestión de los #[em backups], así como una baja tolerancia a fallos (sólo posible a través de soluciones RAID), y un alto TCO- #[em Total Cost of Ownership], debido a las dificultades de mantenimiento.
         .col-md-6
-          img(src="@/assets/curso/temas/t4/tab-img1.svg")
+          img(src="@/assets/curso/temas/t4/tab-img1.svg", alt="Gráfica que ilustra el esquema y funcionamiento del Direct Attached Storage.")
       .row.justify-content-center(titulo="NAS <em>Network Attached Storage</em>")
         .col-12
           p Con la introducción de las redes locales (LAN), se empezaron a utilizar servidores de almacenamiento conectados a la red, a los cuales se podía acceder directamente a través de la propia infraestructura mediante protocolos específicos como NFS -#[em Network File System], en entornos UNIX y CIFS -#[em Common Internet File System], en entornos Microsoft (antes conocido como SMB, protocolo original de IBM que fue mejorado por Microsoft en CIFS) o incluso mediante FTP, HTTP, etc.
           .row.align-items-center
             .col-md-4
-              img.px-3(src="@/assets/curso/temas/t4/tab-img2.svg")
+              img.px-3(src="@/assets/curso/temas/t4/tab-img2.svg", alt="Gráfica que ilustra el esquema y funcionamiento de las arquitecturas de almacenamiento NAS.")
             .col-md-8
               .row.align-items-center.mb-4
                 .col-lg-1.d-none.d-lg-flex
@@ -84,7 +84,7 @@
             .col-lg-11
               p.mb-0.fw-bold.t-blue Las redes de almacenamiento SAN han facilitado enormemente la creación de Centros de Procesos de Datos (CDP) distribuidos, #[em Clusters] Geográficos, creación de centros de respaldo (BDC), etc.
         .col-md-8
-          img(src="@/assets/curso/temas/t4/tab-img3.svg", alt="")
+          img(src="@/assets/curso/temas/t4/tab-img3.svg", alt="Gráfica que ilustra el esquema y funcionamiento de las arquitecturas SAN.")
 
 
     Separador
